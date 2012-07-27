@@ -22,14 +22,23 @@ body {
 img {
   max-width: 100%;
 }
-#thumbnails {
+.gallery {
+  float: left;
+  width: 46%;
+  margin: 0 20px 20px 0;
+}
+.thumbnails {
   float: left;
   margin-right: 14px;
   list-style: none;
 }
-#thumbnails li {
-  width: 150px;
+.thumbnails li {
+  width: 48px;
   margin-bottom: 10px;
+}
+.main-image {
+  float: left;
+  width: 380px;
 }
 </style>
 
@@ -37,7 +46,7 @@ img {
 <script src="simpleGal.min.js"></script>
 <script>
 $(document).ready(function () {
-  $('#thumbnails').simpleGal();
+  $('.thumbnails').simpleGal();
 });
 </script>
 
@@ -45,14 +54,32 @@ $(document).ready(function () {
 
 <body>
 
-  <ul id="thumbnails">
-    <li><a href="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg"><img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Thumbnails"></a></li>
-    <li><a href="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg"><img src="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg" alt="Thumbnails"></a></li>
-    <li><a href="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg"><img src="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg" alt="Thumbnails"></a></li>
-  </ul>
+  <div class="gallery">
 
-  <div id="main-image">
-    <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder">
+    <ul class="thumbnails">
+      <li><a href="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg"><img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Thumbnails"></a></li>
+      <li><a href="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg"><img src="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg" alt="Thumbnails"></a></li>
+      <li><a href="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg"><img src="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg" alt="Thumbnails"></a></li>
+    </ul>
+
+    <div class="main-image">
+      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder">
+    </div>
+
+  </div>
+
+  <div class="gallery">
+
+    <ul class="thumbnails">
+      <li><a href="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg"><img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Thumbnails"></a></li>
+      <li><a href="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg"><img src="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg" alt="Thumbnails"></a></li>
+      <li><a href="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg"><img src="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg" alt="Thumbnails"></a></li>
+    </ul>
+
+    <div class="main-image">
+      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder">
+    </div>
+
   </div>
   
 </body>
