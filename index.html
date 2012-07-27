@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  
+<meta charset="UTF-8">
+<meta name="description" content="A simple gallery">
+<meta name="author" content="Steve Rydz">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A simple gallery</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+img {
+  max-width: 100%;
+}
+#thumbnails {
+  float: left;
+  margin-right: 14px;
+  list-style: none;
+}
+#thumbnails li {
+  width: 150px;
+  margin-bottom: 10px;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $('#thumbnails a').simpleGal();
+});
+</script>
+
+</head>
+
+<body>
+
+  <ul id="thumbnails">
+    <li><a href="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg"><img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Thumbnails"></a></li>
+    <li><a href="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg"><img src="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg" alt="Thumbnails"></a></li>
+    <li><a href="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg"><img src="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg" alt="Thumbnails"></a></li>
+  </ul>
+
+  <div id="main-image">
+    <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder">
+  </div>
+  
+</body>
+</html>
