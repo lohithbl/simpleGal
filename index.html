@@ -46,7 +46,9 @@ img {
 <script src="jquery.simpleGal.min.js"></script>
 <script>
 $(document).ready(function () {
-  $('.thumbnails').simpleGal();
+  $('.thumbnails').simpleGal({
+    mainImage: '.custom'
+  });
 });
 </script>
 
@@ -63,7 +65,7 @@ $(document).ready(function () {
     </ul>
 
     <div class="main-image">
-      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder" class="placeholder">
+      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder" class="custom">
     </div>
 
   </div>
@@ -77,7 +79,7 @@ $(document).ready(function () {
     </ul>
 
     <div class="main-image">
-      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder" class="placeholder">
+      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder" class="custom">
     </div>
 
   </div>

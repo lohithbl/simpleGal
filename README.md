@@ -5,6 +5,14 @@ A simple image gallery plug-in
 
 Copy the mark-up in the demo and call the plug-in as follows:
 
-<pre><code>$('#thumbnails').simpleGal();</code></pre>
+<pre><code>$('.thumbnails').simpleGal();</code></pre>
+
+## A more advanced implementation
+
+If you want to give your main image a different class (which I recommend) then just define it when you are calling the method like so:
+
+<pre><code>$('.thumbnails').simpleGal({
+  mainImage: '.your-main-image-class'
+});</code></pre>
 
 **Note:** There are several ways that this plug-in could be improved and I am currently working on these issues. Also, this documentation and demo will be improved when I have resolved these issues.
