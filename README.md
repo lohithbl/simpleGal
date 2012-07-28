@@ -3,6 +3,8 @@ simpleGal
 
 A simple image gallery plug-in
 
+## How to use
+
 Place your thubmnails within either a <code>div</code>, <code>ol</code> or <code>ul</code> like so:
 
 <pre><code>&lt;div class="thumbnails"&gt;
