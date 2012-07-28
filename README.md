@@ -1,8 +1,12 @@
 # simpleGal
 
-A simple image gallery plug-in
+A simple image gallery plug-in.
 
 ## How to use
+
+Checkout <code>demo.html</code> to see this plug-in in action.
+
+### Write your HTML
 
 Place your thubmnails within either a <code>div</code>, <code>ol</code> or <code>ul</code> like so:
 
@@ -60,11 +64,15 @@ or
 
 You can give the list a class or ID of anything you like.
 
+### Set a placeholder image
+
 Then create a placeholder for your main image like so:
 
 <pre><code>&lt;img src="path/to/placeholder-image.jpg" alt="Placeholder" class="placeholder"&gt;</code></pre>
 
 Again, you can give this image a class or ID of anything you like.
+
+### Call the plug-in method
 
 In your JS file, call the function using your class or ID:
 
