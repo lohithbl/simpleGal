@@ -9,6 +9,8 @@
 
   Plug-in URL: https://github.com/steverydz/simpleGal
 
+  License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+
   Last updated: 28/07/2012
 
 ---------------------------------------------- */
