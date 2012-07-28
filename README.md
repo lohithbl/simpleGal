@@ -84,4 +84,6 @@ If you have given the main image a class of anything other than <code>placeholde
   mainImage: '.your-main-image-class-or-ID'
 });</code></pre>
 
+### Over to you
+
 That&rsquo;s it. You should be ready to roll.
