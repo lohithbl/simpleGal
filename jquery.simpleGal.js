@@ -3,7 +3,7 @@
   simpleGal
   
   Author: Steve Rydz
-  URL: steverydz.com
+  URL: http://steverydz.com
   Twitter: @steverydz
 
   Plug-in URL: https://github.com/steverydz/simpleGal
