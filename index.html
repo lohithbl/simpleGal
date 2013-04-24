@@ -1,88 +1,81 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!doctype html>
+<html>
 <head>
-  
-<meta charset="UTF-8">
-<meta name="description" content="A simple gallery">
-<meta name="author" content="Steve Rydz">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>A simple gallery</title>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 3em;
-}
-img {
-  max-width: 100%;
-}
-.gallery {
-  float: left;
-  width: 46%;
-  margin: 0 20px 20px 0;
-}
-.thumbnails {
-  float: left;
-  margin-right: 14px;
-  list-style: none;
-}
-.thumbnails li {
-  width: 48px;
-  margin-bottom: 10px;
-}
-.main-image {
-  float: left;
-  width: 380px;
-}
-</style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="jquery.simpleGal.min.js"></script>
-<script>
-$(document).ready(function () {
-  $('.thumbnails').simpleGal({
-    mainImage: '.custom'
-  });
-});
-</script>
+  <meta charset="utf-8">
+  <title>A simple gallery</title>
+  <meta name="description" content="A simple jquery gallery plugin">
+  <meta name="author" content="Steve Rydz">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font: 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 3em;
+      color: #333;
+      background: #eee;
+    }
+    img {
+      max-width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      height: auto;
+      background: #fff;
+      box-shadow: 1px 1px 7px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 3em;
+      line-height: 1;
+      margin-bottom: 0.5em;
+    }
+    p {
+      margin-bottom: 1.5em;
+    }
+    ul {
+      list-style: none;
+      margin-bottom: 1.5em;
+    }
+    .main-image {
+      width: 380px;
+      margin-bottom: 0.75em;
+    }
+    .thumbnails li {
+      display: inline;
+      margin: 0 10px 0 0;
+    }
+  </style>
 
 </head>
 
 <body>
 
-  <div class="gallery">
+  <h1>simpleGal</h1>
 
-    <ul class="thumbnails">
-      <li><a href="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg"><img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Thumbnails"></a></li>
-      <li><a href="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg"><img src="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg" alt="Thumbnails"></a></li>
-      <li><a href="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg"><img src="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg" alt="Thumbnails"></a></li>
-    </ul>
+  <p>Author: <a href="http://steverydz.com">Steve Rydz</a> | <a href="http://github.com/steverydz/simpleGal">Github repo</a></p>
 
-    <div class="main-image">
-      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder" class="custom">
-    </div>
-
+  <div class="main-image">
+    <img src="assets/img/img-01.jpg" alt="Placeholder" class="custom">
   </div>
 
-  <div class="gallery">
+  <ul class="thumbnails">
+    <li><a href="assets/img/img-01.jpg"><img src="assets/img/img-01-tn.jpg" alt="Thumbnails"></a></li>
+    <li><a href="assets/img/img-02.jpg"><img src="assets/img/img-02-tn.jpg" alt="Thumbnails"></a></li>
+    <li><a href="assets/img/img-03.jpg"><img src="assets/img/img-03-tn.jpg" alt="Thumbnails"></a></li>
+  </ul>
 
-    <ul class="thumbnails">
-      <li><a href="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg"><img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Thumbnails"></a></li>
-      <li><a href="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg"><img src="http://farm9.staticflickr.com/8009/7596605084_c36490b6a7.jpg" alt="Thumbnails"></a></li>
-      <li><a href="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg"><img src="http://farm9.staticflickr.com/8016/7585950794_b0cdd74891.jpg" alt="Thumbnails"></a></li>
-    </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.simpleGal.js"></script>
+  <script>
+  $(document).ready(function () {
+    $('.thumbnails').simpleGal({
+      mainImage: '.custom'
+    });
+  });
+  </script>
 
-    <div class="main-image">
-      <img src="http://farm9.staticflickr.com/8429/7606095390_bd7831f3f9.jpg" alt="Placeholder" class="custom">
-    </div>
-
-  </div>
-  
 </body>
 </html>
