@@ -19,7 +19,7 @@
 
   $.fn.extend({
 
-    simpleGal: function(options) {
+    simpleGal: function (options) {
 
       var defaults = {
         mainImage: ".placeholder"
@@ -27,7 +27,7 @@
 
       options = $.extend(defaults, options);
 
-      return this.each(function() {
+      return this.each(function () {
 
         var thumbnail = $(this).find("a");
         var mainImage = $(this).siblings().find(options.mainImage);
