@@ -1,66 +1,66 @@
 # simpleGal
 
-A simple image gallery plug-in.
+A simple image gallery jQuery plug-in.
 
 ## How to use
 
-Checkout <code>demo.html</code> to see this plug-in in action.
+Checkout [the demo](http://steverydz.github.com/simpleGal) to see this plug-in in action.
 
 ### Write your HTML
 
-Place your thubmnails within either a <code>div</code>, <code>ol</code> or <code>ul</code> like so:
+Place your thubmnails within either a `div`, `ol` or `ul` like so:
 
-<pre><code>&lt;div class="thumbnails"&gt;
-  &lt;a href="path/to/larger-image.jpg"&gt;
-    &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-  &lt;/a&gt;
-  &lt;a href="path/to/larger-image.jpg"&gt;
-    &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-  &lt;/a&gt;
-  &lt;a href="path/to/larger-image.jpg"&gt;
-    &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-  &lt;/a&gt;
-&lt;/div&gt;</code></pre>
-
-or
-
-<pre><code>&lt;ul class="thumbnails"&gt;
-  &lt;li&gt;
-    &lt;a href="path/to/larger-image.jpg"&gt;
-      &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="path/to/larger-image.jpg"&gt;
-      &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="path/to/larger-image.jpg"&gt;
-      &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</code></pre>
+    <div class="thumbnails">
+      <a href="path/to/larger-image.jpg">
+        <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+      </a>
+      <a href="path/to/larger-image.jpg">
+        <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+      </a>
+      <a href="path/to/larger-image.jpg">
+        <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+      </a>
+    </div>
 
 or
 
-<pre><code>&lt;ol class="thumbnails"&gt;
-  &lt;li&gt;
-    &lt;a href="path/to/larger-image.jpg"&gt;
-      &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="path/to/larger-image.jpg"&gt;
-      &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="path/to/larger-image.jpg"&gt;
-      &lt;img src="path/to/thumbnail.jpg" alt="Thumbnail"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</code></pre>
+    <ul class="thumbnails">
+      <li>
+        <a href="path/to/larger-image.jpg">
+          <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+        </a>
+      </li>
+      <li>
+        <a href="path/to/larger-image.jpg">
+          <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+        </a>
+      </li>
+      <li>
+        <a href="path/to/larger-image.jpg">
+          <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+        </a>
+      </li>
+    </ul>
+
+or
+
+    <ol class="thumbnails">
+      <li>
+        <a href="path/to/larger-image.jpg">
+          <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+        </a>
+      </li>
+      <li>
+        <a href="path/to/larger-image.jpg">
+          <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+        </a>
+      </li>
+      <li>
+        <a href="path/to/larger-image.jpg">
+          <img src="path/to/thumbnail.jpg" alt="Thumbnail">
+        </a>
+      </li>
+    </ol>
 
 You can give the list a class or ID of anything you like.
 
@@ -68,7 +68,7 @@ You can give the list a class or ID of anything you like.
 
 Then create a placeholder for your main image like so:
 
-<pre><code>&lt;img src="path/to/placeholder-image.jpg" alt="Placeholder" class="placeholder"&gt;</code></pre>
+    <img src="path/to/placeholder-image.jpg" alt="Placeholder" class="placeholder">
 
 Again, you can give this image a class or ID of anything you like.
 
@@ -76,14 +76,14 @@ Again, you can give this image a class or ID of anything you like.
 
 In your JS file, call the function using your class or ID:
 
-<pre><code>$('.thumbnails').simpleGal();</code></pre>
+    $(".thumbnails").simpleGal();
 
-If you have given the main image a class of anything other than <code>placeholder</code> or used an ID then you must declare that in the options:
+If you have given the main image a class of anything other than `placeholder` or used an ID then you must declare that in the options:
 
-<pre><code>$('.thumbnails').simpleGal({
-  mainImage: '.your-main-image-class-or-ID'
-});</code></pre>
+    $(".thumbnails").simpleGal({
+      mainImage: ".your-main-image-class-or-ID"
+    });
 
 ### Over to you
 
-That&rsquo;s it. You should be ready to roll.
+That's it. You should be ready to roll.
