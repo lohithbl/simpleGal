@@ -4,7 +4,7 @@ A simple image gallery jQuery plug-in.
 
 ## How to use
 
-Checkout [the demo](http://steverydz.github.com/simpleGal) to see this plug-in in action.
+Checkout [the demo](http://steverydz.github.com/simpleGal/demo) to see this plug-in in action.
 
 ### Write your HTML
 
