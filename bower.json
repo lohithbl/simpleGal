@@ -1,5 +1,5 @@
 {
-  "name": "jquery.simpleGal",
+  "name": "simpleGal",
   "version": "0.0.1",
   "homepage": "https://github.com/steverydz/simpleGal",
   "authors": [
@@ -15,5 +15,13 @@
     "image",
     "photo"
   ],
-  "licenses": "MIT"
+  "licenses": "MIT",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
