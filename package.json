@@ -1,0 +1,24 @@
+{
+  "name": "jquery.simpleGal",
+  "title": "simpleGal",
+  "description": "A simple, image gallery plugin.",
+  "author": {
+    "name": "Steve Rydz",
+    "url": "http://steverydz.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/steverydz/simpleGal.git"
+  },
+  "homepage": "http://github.com/steverydz/simpleGal.git",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}
