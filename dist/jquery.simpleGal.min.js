@@ -1,6 +1,6 @@
 /*
  * simpleGal -v0.0.1
- * A simple image gallery plugin
+ * A simple image gallery plugin.
  * https://github.com/steverydz/simpleGal
  * 
  * Made by Steve Rydz
