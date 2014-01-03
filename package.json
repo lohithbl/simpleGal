@@ -1,5 +1,5 @@
 {
-  "name": "jquery.simpleGal",
+  "name": "simpleGal",
   "title": "simpleGal",
   "description": "A simple image gallery plugin.",
   "author": {
@@ -8,43 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/steverydz/simpleGal.git"
+    "url": "https://github.com/steverydz/simpleGal.git"
   },
-  "version": "0.0.1",
-  "keywords": [
-    "jquery",
-    "gallery",
-    "image",
-    "photo"
-  ],
-  "maintainers": [
-    {
-      "name": "Steve Rydz",
-      "email": "steverydz@gmail.com",
-      "url": "http://steverydz.com"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://steverydz.mit-license.org/"
-    }
-  ],
-  "bugs": "https://github.com/steverydz/simpleGal/issues",
   "homepage": "https://github.com/steverydz/simpleGal",
-  "docs": "https://github.com/steverydz/simpleGal#readme",
-  "download": "https://github.com/steverydz/simpleGal/archive/master.zip",
-  "dependencies": {
-    "jquery": ">=1.9"
-  },
+  "version": "0.0.1",
   "devDependencies": {
+    "grunt-cli": "~0.1.11",
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.7",
-    "grunt-cli": "~0.1.11"
+    "grunt-contrib-uglify": "~0.2.7"
   },
-  "scripts": {
-    "test": "grunt travis --verbose"
-  }
-}
+
