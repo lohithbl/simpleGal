@@ -10,8 +10,33 @@
     "type": "git",
     "url": "http://github.com/steverydz/simpleGal.git"
   },
-  "homepage": "http://github.com/steverydz/simpleGal",
   "version": "0.0.1",
+  "keywords": [
+    "jquery",
+    "gallery",
+    "image",
+    "photo"
+  ],
+  "maintainers": [
+    {
+      "name": "Steve Rydz",
+      "email": "steverydz@gmail.com",
+      "url": "http://steverydz.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://steverydz.mit-license.org/"
+    }
+  ],
+  "bugs": "https://github.com/steverydz/simpleGal/issues",
+  "homepage": "https://github.com/steverydz/simpleGal",
+  "docs": "https://github.com/steverydz/simpleGal#readme",
+  "download": "https://github.com/steverydz/simpleGal/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.8.0",

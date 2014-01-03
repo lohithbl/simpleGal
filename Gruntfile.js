@@ -3,7 +3,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     // Import package manifest
-    pkg: grunt.file.readJSON("jquery.simpleGal.json"),
+    pkg: grunt.file.readJSON("package.json"),
 
     // Banner definitions
     meta: {
