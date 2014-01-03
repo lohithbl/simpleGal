@@ -1,7 +1,7 @@
 {
   "name": "jquery.simpleGal",
   "title": "simpleGal",
-  "description": "A simple, image gallery plugin.",
+  "description": "A simple image gallery plugin.",
   "author": {
     "name": "Steve Rydz",
     "url": "http://steverydz.com"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "http://github.com/steverydz/simpleGal.git"
   },
-  "homepage": "http://github.com/steverydz/simpleGal.git",
+  "homepage": "http://github.com/steverydz/simpleGal",
   "version": "0.0.1",
   "devDependencies": {
     "grunt": "~0.4.2",
