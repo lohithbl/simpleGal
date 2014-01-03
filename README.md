@@ -1,5 +1,7 @@
 # simpleGal
 
+[![Build Status](https://travis-ci.org/steverydz/simpleGal.png?branch=master)](https://travis-ci.org/steverydz/simpleGal)
+
 A simple image gallery jQuery plug-in.
 
 ## How to use
