@@ -15,7 +15,7 @@
         var thumbnail = $(this).find("a"),
             mainImage = $(this).siblings().find(options.mainImage);
 
-        thumbnail.on("click", function (e) {
+        thumbnail.on("hover", function (e) {
           e.preventDefault();
           var galleryImage = $(this).attr("href");
           mainImage.attr("src", galleryImage);
